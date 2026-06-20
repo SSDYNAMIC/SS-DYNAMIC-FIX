@@ -4,7 +4,7 @@ SS DYNAMIC TELECOMMUNICATION (MA0200450)
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SS DYNAMIC FIX | Phone & Laptop Repair</title>
+<title>SS DYNAMIC FIX Phone & Laptop Repair</title>
 
 <style>
 
