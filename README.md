@@ -187,7 +187,7 @@ z-index:999;
 <header>
 
 <div class="logo">
-SS DYNAMIC FIX</span>
+SS DYNAMIC FIX
 </div>
 
 <div class="tagline">
