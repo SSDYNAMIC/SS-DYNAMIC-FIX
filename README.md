@@ -6,6 +6,7 @@ SS DYNAMIC FIX PHONE &amp; LAPTOP REPAIR REPAIRING SPECIALIST CENTER SS DYNAMIC 
 <title>SS DYNAMIC FIX | Phone & Laptop Repair</title>
 
 <style>
+
 *{
 margin:0;
 padding:0;
@@ -14,63 +15,78 @@ font-family:Arial,Helvetica,sans-serif;
 }
 
 body{
-background:#000;
+background:#0d0d0d;
 color:#fff;
 }
 
 header{
-background:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),
-url('https://images.unsplash.com/photo-1518770660439-4636190af475');
-background-size:cover;
-background-position:center;
-height:100vh;
+background:linear-gradient(135deg,#000,#1a1a1a,#ff0000);
+padding:60px 20px;
+text-align:center;
+}
+
+.logo{
+font-size:60px;
+font-weight:bold;
+color:#ff0000;
+text-shadow:0 0 20px #ff0000;
+}
+
+.logo span{
+color:#00aaff;
+}
+
+.tagline{
+font-size:30px;
+margin-top:15px;
+font-weight:bold;
+}
+
+.company{
+font-size:18px;
+margin-top:10px;
+color:#ddd;
+}
+
+.hero{
+background:url('https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600') center/cover;
+min-height:500px;
 display:flex;
 justify-content:center;
 align-items:center;
 text-align:center;
-padding:20px;
+padding:30px;
+}
+
+.hero-content{
+background:rgba(0,0,0,.75);
+padding:40px;
+border-radius:20px;
+max-width:900px;
 }
 
 .hero h1{
-font-size:55px;
+font-size:50px;
 color:#ff0000;
-}
-
-.hero h2{
-font-size:30px;
-margin-top:10px;
+margin-bottom:20px;
 }
 
 .hero p{
-margin-top:15px;
-font-size:18px;
+font-size:22px;
+line-height:1.8;
 }
 
-.btn{
-display:inline-block;
-padding:15px 30px;
-background:#ff0000;
-color:#fff;
-text-decoration:none;
-margin-top:20px;
-border-radius:8px;
-font-weight:bold;
-}
-
-section{
+.section{
 padding:60px 20px;
-}
-
-.container{
 max-width:1200px;
 margin:auto;
 }
 
-.title{
-text-align:center;
+.section-title{
 font-size:40px;
-color:#ff0000;
+text-align:center;
 margin-bottom:40px;
+color:#ff0000;
 }
 
 .services{
@@ -80,228 +96,256 @@ gap:20px;
 }
 
 .card{
-background:#111;
+background:#151515;
 padding:25px;
 border:1px solid #ff0000;
-border-radius:10px;
+border-radius:15px;
+text-align:center;
 }
 
 .card h3{
 color:#ff0000;
-margin-bottom:10px;
+margin-bottom:15px;
 }
 
 form{
 background:#111;
 padding:30px;
-border-radius:10px;
+border-radius:15px;
 border:1px solid #ff0000;
 }
 
-input,textarea{
+label{
+display:block;
+margin-top:15px;
+margin-bottom:5px;
+}
+
+input,textarea,select{
 width:100%;
 padding:12px;
-margin-top:10px;
-margin-bottom:15px;
 border:none;
-border-radius:5px;
+border-radius:8px;
+background:#222;
+color:#fff;
+}
+
+textarea{
+height:120px;
 }
 
 button{
 background:#ff0000;
 color:#fff;
-padding:15px;
 border:none;
+padding:15px 25px;
+margin-top:20px;
 cursor:pointer;
-width:100%;
 font-size:18px;
-border-radius:5px;
+border-radius:10px;
+}
+
+button:hover{
+background:#cc0000;
+}
+
+.map{
+width:100%;
+height:450px;
+border:none;
+border-radius:15px;
 }
 
 footer{
-background:#111;
-text-align:center;
+background:#000;
 padding:30px;
-border-top:2px solid #ff0000;
+text-align:center;
+margin-top:50px;
 }
 
-.whatsapp{
+.whatsapp-float{
 position:fixed;
 bottom:20px;
 right:20px;
 background:#25D366;
-color:#fff;
+color:white;
 padding:15px 20px;
 border-radius:50px;
+font-size:18px;
 text-decoration:none;
 font-weight:bold;
+box-shadow:0 0 20px rgba(0,255,0,.5);
+z-index:999;
 }
 
-@media(max-width:768px){
-.hero h1{
-font-size:35px;
-}
-.hero h2{
-font-size:22px;
-}
-}
 </style>
 </head>
 
 <body>
 
 <header>
-<div class="hero">
-<h1>SS DYNAMIC FIX</h1>
-<h2>PHONE & LAPTOP REPAIR</h2>
-<h2>REPAIRING SPECIALIST CENTER</h2>
-<p>SS DYNAMIC TELECOMMUNICATION MA0200450</p>
-<p>#SSDynamicFiX</p>
 
-<a href="#repairform" class="btn">
-BOOK REPAIR NOW
-</a>
-
+<div class="logo">
+SSDYNAMIC<span>FIX</span>
 </div>
+
+<div class="tagline">
+PHONE & LAPTOP REPAIR
+</div>
+
+<div class="company">
+REPAIRING SPECIALIST CENTER<br>
+SS DYNAMIC TELECOMMUNICATION (MA0200450)
+</div>
+
 </header>
 
-<section>
-<div class="container">
-<h2 class="title">OUR SERVICES</h2>
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>SS DYNAMIC FIX</h1>
+
+<p>
+Professional Smartphone & Laptop Repair Specialist Center.<br>
+Screen Replacement • Battery Replacement • Motherboard Repair • Water Damage Repair • Software Troubleshooting
+</p>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">OUR SERVICES</h2>
 
 <div class="services">
 
 <div class="card">
-<h3>LCD Screen Repair</h3>
-<p>Screen Pecah, Retak, Blank, No Display</p>
+<h3>LCD Screen Replacement</h3>
+<p>Broken, cracked or no display screen repair.</p>
 </div>
 
 <div class="card">
 <h3>Battery Replacement</h3>
-<p>Battery Kembung, Battery Drop, Fast Drain</p>
+<p>Battery drain, swollen battery and charging issues.</p>
 </div>
 
 <div class="card">
 <h3>Motherboard Repair</h3>
-<p>No Power, Short Circuit, Water Damage</p>
+<p>Advanced board-level troubleshooting and repair.</p>
+</div>
+
+<div class="card">
+<h3>Water Damage</h3>
+<p>Professional cleaning and recovery service.</p>
 </div>
 
 <div class="card">
 <h3>Laptop Repair</h3>
-<p>Screen, Keyboard, Battery, Motherboard</p>
+<p>Hardware and software repair services.</p>
 </div>
 
 <div class="card">
-<h3>Charging Problem</h3>
-<p>Not Charging, Slow Charging</p>
-</div>
-
-<div class="card">
-<h3>Data Recovery</h3>
-<p>Backup Data & Recovery Service</p>
+<h3>Software Issues</h3>
+<p>Formatting, updating and troubleshooting.</p>
 </div>
 
 </div>
-</div>
+
 </section>
 
-<section id="repairform">
-<div class="container">
+<section class="section">
 
-<h2 class="title">SS DYNAMIC REPAIR FORM</h2>
+<h2 class="section-title">DEVICE REPAIR FORM</h2>
 
-<form onsubmit="sendRepair(); return false;">
+<form>
 
-<input type="text" id="brand" placeholder="BRAND" required>
+<label>Brand</label>
+<input type="text">
 
-<input type="text" id="model" placeholder="MODEL" required>
+<label>Model</label>
+<input type="text">
 
-<input type="text" id="codemodel" placeholder="CODE MODEL">
+<label>Code Model</label>
+<input type="text">
 
-<textarea id="damaged" placeholder="DAMAGED"></textarea>
+<label>Damaged</label>
+<textarea></textarea>
 
-<textarea id="chronology" placeholder="DEVICE CHRONOLOGY BEFORE DAMAGED"></textarea>
+<label>Device Chronology Before Damaged</label>
+<textarea></textarea>
 
-<input type="text" id="screenlock" placeholder="SCREEN LOCK CODE / PASSWORD / PIN / PATTERN">
+<label>Screen Lock / Password / PIN / Pattern</label>
+<input type="text">
+
+</form>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">CUSTOMER INFORMATION</h2>
+
+<form>
+
+<label>Customer Name</label>
+<input type="text">
+
+<label>WhatsApp Number</label>
+<input type="tel">
+
+<label>Email Address</label>
+<input type="email">
+
+<label>Address</label>
+<textarea></textarea>
+
+<label>Screen Lock / Password / PIN / Pattern</label>
+<input type="text">
 
 <button type="submit">
-SEND REPAIR FORM
+Submit Service Request
 </button>
 
 </form>
 
-</div>
 </section>
 
-<section>
-<div class="container">
+<section class="section">
 
-<h2 class="title">CUSTOMER FORM</h2>
+<h2 class="section-title">OUR LOCATION</h2>
 
-<form onsubmit="sendCustomer(); return false;">
+<iframe class="map"
+src="https://maps.google.com/maps?q=Kompleks%20AG%20Sentral%20Alor%20Gajah&t=&z=15&ie=UTF8&iwloc=&output=embed">
+</iframe>
 
-<input type="text" id="name" placeholder="NAME" required>
-
-<input type="text" id="phone" placeholder="WHATSAPP NUMBER" required>
-
-<input type="email" id="email" placeholder="EMAIL">
-
-<textarea id="address" placeholder="ADDRESS"></textarea>
-
-<input type="text" id="customerlock" placeholder="SCREEN LOCK CODE / PASSWORD / PIN">
-
-<button type="submit">
-SEND CUSTOMER FORM
-</button>
-
-</form>
-
-</div>
 </section>
 
 <footer>
 
 <h3>SS DYNAMIC FIX</h3>
-<p>PHONE & LAPTOP REPAIR</p>
-<p>REPAIRING SPECIALIST CENTER</p>
-<p>WhatsApp: +601151453147</p>
-<p>#SSDynamicFiX</p>
+
+<p>
+NO 2, BANGUNAN TERMINAL BAS,<br>
+KOMPLEKS AG SENTRAL,<br>
+78000 ALOR GAJAH, MELAKA
+</p>
+
+<p>
+WhatsApp: 01151453147
+</p>
+
+<p>
+#SSDynamicFiX
+</p>
 
 </footer>
 
-<a href="https://wa.me/601151453147" class="whatsapp">
-WhatsApp
+<a class="whatsapp-float"
+href="https://wa.me/601151453147"
+target="_blank">
+WhatsApp Now
 </a>
-
-<script>
-
-function sendRepair(){
-
-var text =
-"🔧 SS DYNAMIC REPAIR FORM%0A%0A"+
-"Brand: "+document.getElementById('brand').value+"%0A"+
-"Model: "+document.getElementById('model').value+"%0A"+
-"Code Model: "+document.getElementById('codemodel').value+"%0A"+
-"Damaged: "+document.getElementById('damaged').value+"%0A"+
-"Chronology: "+document.getElementById('chronology').value+"%0A"+
-"Screen Lock: "+document.getElementById('screenlock').value;
-
-window.open("https://wa.me/601151453147?text="+text);
-}
-
-function sendCustomer(){
-
-var text =
-"👤 CUSTOMER FORM%0A%0A"+
-"Name: "+document.getElementById('name').value+"%0A"+
-"WhatsApp: "+document.getElementById('phone').value+"%0A"+
-"Email: "+document.getElementById('email').value+"%0A"+
-"Address: "+document.getElementById('address').value+"%0A"+
-"Screen Lock: "+document.getElementById('customerlock').value;
-
-window.open("https://wa.me/601151453147?text="+text);
-}
-
-</script>
 
 </body>
