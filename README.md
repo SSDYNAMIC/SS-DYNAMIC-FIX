@@ -351,22 +351,26 @@ SS DYNAMIC TELECOMMUNICATION (MA0200450)
                 allowfullscreen="" 
                 loading="lazy" 
                 referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+            <iframe
+src="https://maps.google.com/maps?q=2.382035,102.211564&t=&z=15&ie=UTF8&iwloc=&output=embed">
+</iframe>
 
-            <br><br>
-            <h3>SS DYNAMIC FIX</h3>
-            <p>
-                NO 2, BANGUNAN TERMINAL BAS,<br>
-                KOMPLEKS AG SENTRAL,<br>
-                78000 ALOR GAJAH,<br>
-                MELAKA
-            </p>
-            <p>Plus Code: 96J6+RJ8</p>
-            
-            <a href="https://waze.com/ul/hw22ttcshw" class="waze-btn" target="_blank" rel="noopener noreferrer">
-                🚗 Navigate with Waze
-            </a>
-        </section>
+<br><br>
+
+<h3>SS DYNAMIC FIX</h3>
+
+<p>
+NO 2, BANGUNAN TERMINAL BAS,<br>
+KOMPLEKS AG SENTRAL,<br>
+78000 ALOR GAJAH,<br>
+MELAKA
+</p>
+
+<p>
+Plus Code: 96J6+RJ8
+</p>
+
+</section>
     </main>
 
     <footer>
