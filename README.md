@@ -347,8 +347,10 @@ SS DYNAMIC TELECOMMUNICATION (MA0200450)
             <h2 class="section-title">Our Location</h2>
             
             <iframe 
-                src="https://maps.google.com/maps?q=2.382036,102.211566&t=&z=15&ie=UTF8&iwloc=&output=embed">
-                🚗 Navigate with Google Maps
+                src="https://maps.google.com/maps?q=2.382036,102.211566&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
             </iframe>
 
             <br><br>
@@ -361,10 +363,25 @@ SS DYNAMIC TELECOMMUNICATION (MA0200450)
             </p>
             <p>Plus Code: 96J6+RJ8</p>
             
-            <a href="https://waze.com/ul/hw22ttcshw" class="waze-btn" target="_blank" rel="noopener noreferrer">
-                🚗 Navigate with Waze
-            </a>
+            <div style="margin-top: 15px; display: flex; gap: 10px; flex-wrap: wrap;">
+                <a href="https://www.google.com/maps/dir/?api=1&destination=AG+Sentral+Alor+Gajah+Melaka" 
+                   class="btn" 
+                   style="margin-top: 0; background: #4285F4;" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    🚗 Navigate with Google Maps
+                </a>
+
+                <a href="https://waze.com/ul/hw22ttcshw" 
+                   class="waze-btn" 
+                   style="margin-top: 0;" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    🚙 Navigate with Waze
+                </a>
+            </div>
         </section>
+
     </main>
 
     <footer>
