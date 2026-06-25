@@ -348,6 +348,7 @@ SS DYNAMIC TELECOMMUNICATION (MA0200450)
             
             <iframe 
                 src="https://maps.google.com/maps?q=2.382036,102.211566&t=&z=15&ie=UTF8&iwloc=&output=embed">
+                🚗 Navigate with Google Maps
             </iframe>
 
             <br><br>
