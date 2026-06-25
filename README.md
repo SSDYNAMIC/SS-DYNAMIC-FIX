@@ -370,10 +370,7 @@ MELAKA
 Plus Code: 96J6+RJ8
 </p>
 
-</section>
-    </main>
-
-    <footer>
+<footer>
         <h2>SS DYNAMIC FIX</h2>
         <p>Phone & Laptop Repair Specialist Center</p>
         <p>WhatsApp: 01151453147</p>
