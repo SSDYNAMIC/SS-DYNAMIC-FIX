@@ -347,7 +347,7 @@ SS DYNAMIC TELECOMMUNICATION (MA0200450)
             <h2 class="section-title">Our Location</h2>
             
             <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.4715569424784!2d102.1961605!3d2.382283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1dd68037edaff%3A0x6b139d67fb8b71d4!2sAG%20Sentral!5e0!3m2!1sen!2smy!4v1710000000000!5m2!1sen!2smy" 
+                src="https://maps.app.goo.gl/KQnztwiS4EiJ5svDApb=!1m18!1m12!1m3!1d3986.4715569424784!2d102.1961605!3d2.382283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d1dd68037edaff%3A0x6b139d67fb8b71d4!2sAG%20Sentral!5e0!3m2!1sen!2smy!4v1710000000000!5m2!1sen!2smy" 
                 allowfullscreen="" 
                 loading="lazy" 
                 referrerpolicy="no-referrer-when-downgrade">
