@@ -378,5 +378,4 @@ Plus Code: 96J6+RJ8
     </footer>
 
     <a class="whatsapp-float" href="https://wa.me/601151453147" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-
 </body>
